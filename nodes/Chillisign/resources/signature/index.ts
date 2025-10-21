@@ -45,6 +45,7 @@ export const signatureDescription: INodeProperties[] = [
 		displayName: 'Token ID',
 		name: 'tokenId',
 		type: 'string',
+		typeOptions: { password: true },
 		default: '',
 		required: true,
 		displayOptions: {
@@ -56,6 +57,7 @@ export const signatureDescription: INodeProperties[] = [
 		displayName: 'Email',
 		name: 'email',
 		type: 'string',
+		placeholder: 'name@email.com',
 		default: '',
 		required: true,
 		displayOptions: {
@@ -68,7 +70,7 @@ export const signatureDescription: INodeProperties[] = [
 		name: 'client',
 		type: 'string',
 		default: '',
-		required: false,
+
 		displayOptions: {
 			show: {
 				...showOnlyForSignatures,
@@ -88,7 +90,7 @@ export const signatureDescription: INodeProperties[] = [
 		name: 'version',
 		type: 'string',
 		default: '',
-		required: false,
+
 		displayOptions: {
 			show: {
 				...showOnlyForSignatures,

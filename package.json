@@ -1,9 +1,9 @@
 {
   "name": "n8n-nodes-chillisign",
   "version": "1.1.0",
-  "description": "",
+  "description": "Node for integrating ChilliSign — a professional email signature management platform. Automate signature creation, user management, and template synchronization via ChilliSign REST API.",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://www.chillisign.io",
   "keywords": ["n8n-community-node-package", "email", "chillisign", "signature", "email signature", "custom template"],
   "author": { "name": "Standa Horvath", "email": "standa@tonakodi.cz" },
   "repository": {
