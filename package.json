@@ -1,11 +1,21 @@
 {
   "name": "n8n-nodes-chillisign",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Node for integrating ChilliSign — a professional email signature management platform. Automate signature creation, user management, and template synchronization via ChilliSign REST API.",
   "license": "MIT",
   "homepage": "https://www.chillisign.io",
-  "keywords": ["n8n-community-node-package", "email", "chillisign", "signature", "email signature", "custom template"],
-  "author": { "name": "Standa Horvath", "email": "standa@tonakodi.cz" },
+  "keywords": [
+    "n8n-community-node-package",
+    "email",
+    "chillisign",
+    "signature",
+    "email signature",
+    "custom template"
+  ],
+  "author": {
+    "name": "Standa Horvath",
+    "email": "standa@tonakodi.cz"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/standahorvath/n8n-nodes-chillisign.git"
@@ -19,12 +29,16 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
     "credentials": [],
-    "nodes": ["dist/nodes/Chillisign/Chillisign.node.js"]
+    "nodes": [
+      "dist/nodes/Chillisign/Chillisign.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
@@ -33,5 +47,7 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
